@@ -1,0 +1,230 @@
+@font-face {
+    font-family: myFont;
+    src: url(../images/digital-7.monoitalic.ttf);
+}
+
+
+html, body {
+    height:100%;
+    background-size:cover;
+    background-image: url("../images/page_background.jpg");
+    font-family: myFont, sans-serif;
+    overflow-x:hidden;
+
+}
+h1 {
+  font-family:Verdana;
+  color:white;
+}
+
+#draggable{
+    width:315px;
+    height:auto;
+    margin-right:auto;
+    margin-left:auto;
+    border-bottom-right-radius: 1em;
+    border-bottom-left-radius: 1em;
+}
+.body-shadow{
+
+    margin-right:auto;
+    margin-left:auto;
+    width:314px;
+    border-bottom-right-radius: 1em;
+    border-bottom-left-radius: 1em;
+    -webkit-box-shadow: 1px 6px 21px -3px rgba(0,0,0,1);
+    -moz-box-shadow: 1px 6px 21px -3px rgba(0,0,0,1);
+    box-shadow: 1px 6px 21px -3px rgba(0,0,0,1);
+}
+.lines{
+
+background-image:url("../images/lines.jpg");
+    background-size:cover;
+    width:317px;
+    height:30px;
+    margin-right:auto;
+    margin-left:auto;
+    border-top-right-radius: 0.1em;
+    border-top-left-radius: 0.1em;
+    -webkit-box-shadow: inset 1px 12px 52px -27px rgba(0,0,0,1);
+    -moz-box-shadow: inset 1px 12px 52px -27px rgba(0,0,0,1);
+    box-shadow: inset 1px 12px 52px -27px rgba(0,0,0,1);
+
+}
+.calculator-skin{
+
+    background-image:url("../images/background.png");
+    width:317px;
+    height:auto;
+    padding-top:1px;
+    margin-right:auto;
+    margin-left:auto;
+    border-bottom-right-radius: 0.3em;
+    border-bottom-left-radius: 0.3em;
+    -webkit-box-shadow: inset 0px -5px 4px 0px rgba(117,117,117,1);
+    -moz-box-shadow: inset 0px -5px 4px 0px rgba(117,117,117,1);
+    box-shadow: inset 0px -5px 4px 0px rgba(117,117,117,1);
+
+
+
+}
+#display-result{
+
+  background-image: url("../images/display.jpg");
+  background-size: cover;
+    overflow:hidden;
+  width: 250px;
+  height: 75px;
+  margin-right:auto;
+  margin-left:auto;
+  margin-top:25px;
+  padding-top:20px;
+
+    -webkit-box-shadow: inset 0px 0px 2px 4px rgba(184,185,168,0.7);
+    -moz-box-shadow: inset 0px 0px 2px 4px rgba(184,185,168,0.7);
+    box-shadow: inset 0px 0px 2px 4px rgba(184,185,168,0.7);
+
+}
+
+.shadow{
+    margin-top:10px;
+    background-image:url("../images/shadow.jpg");
+    width:315px;
+    height:30px;
+    margin-right:auto;
+    margin-left:auto;
+}
+#calculator{
+
+  width: 317px;
+  height: auto;
+  padding-bottom:35px;
+  padding-left:15px;
+    padding-right:20px;
+    padding-top:10px;
+  margin-left:27px;
+  margin-top:20px;
+}
+#steps{
+  padding-left:10px;
+  font-size:2.5em;
+  color:#FFAF24;
+  text-shadow: 0 0 10px rgba(238,124,35,0.9);
+}
+.calc-logo{
+    background-image: url('../images/model.jpg');
+    background-size: cover;
+    width:100px;
+    height:38px;
+    margin-left:25px;
+    margin-top:10px;
+    -webkit-box-shadow: inset 0px 0px 2px 3px rgba(184,185,168,0.7);
+    -moz-box-shadow: inset 0px 0px 2px 3px rgba(184,185,168,0.7);
+    box-shadow: inset 0px 0px 2px 3px rgba(184,185,168,0.7);
+}
+.btn{
+
+    padding:15px;
+    margin:15px;
+
+}
+
+
+.btn-form {
+
+    margin:3px;
+    display: block;
+
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+    -webkit-box-shadow: 0px 0px 1px 3.65px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 0px 1px 3.65px rgba(0,0,0,1);
+    box-shadow: 0px 0px 1px 3.65px rgba(0,0,0,1);
+}
+
+
+#btn7{
+
+    background-image:url("../images/seven.jpg");
+
+}
+#btn8{
+    background-image:url("../images/eight.jpg");
+}
+
+#btn9{
+    background-image:url("../images/nine.jpg");
+}
+
+#btn-{
+    background-image:url("../images/minus.jpg");
+}
+
+#btn4{
+    background-image:url("../images/four.jpg");
+}
+#btn5{
+    background-image:url("../images/five.jpg");
+}
+
+#btn6{
+    background-image:url("../images/six.jpg");
+}
+
+#btn-plus{
+    background-image:url('../images/plus.jpg');
+}
+#btn1{
+     background-image:url('../images/one.jpg');
+}
+#btn2{
+    background-image:url('../images/two.jpg');
+}
+#btn3{
+    background-image:url('../images/three.jpg');
+}
+#btn-dot{
+    background-image:url('../images/dot.jpg');
+}
+
+#btn-zero{
+    background-image:url('../images/zero.jpg');
+}
+
+#btn-total{
+    background-image:url('../images/total.jpg');
+}
+
+#btn-delete{
+    background-image:url('../images/c.jpg');
+}
+
+#btn-devide{
+    background-image:url('../images/devide.jpg');
+}
+#btn-CE{
+    background-image:url('../images/back.jpg');
+}
+
+#btn-multiply{
+    background-image:url('../images/multiply.jpg');
+}
+
+
+
+a {
+  margin: 5px;
+  width: 2.6vw;
+  height: 2.6vw
+ 
+  
+}
+footer {
+    background-color: #E5E5E5;
+    font-size: 16px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+
+}
